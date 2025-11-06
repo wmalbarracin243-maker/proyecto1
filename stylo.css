@@ -1,0 +1,265 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #111;
+  padding: 20px 0;
+  border-bottom: 2px solid #FFD700;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+h1 {
+  color: #FFD700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  margin: 25px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin: 10px 0 5px;
+  color: #FFD700;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  background: #111;
+  color: white;
+  border: 1px solid #FFD700;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+.btn-sec {
+  background-color: #333;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+}
+
+.btn-sec:hover {
+  background-color: #555;
+}
+
+.resultado {
+  margin-top: 25px;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inversion {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 12px;
+  text-align: left;
+}
+
+.total {
+  background: #222;
+  border: 1px solid #FFD700;
+}
+
+.positivo { color: #00ff7f; font-weight: bold; }
+.negativo { color: #ff4c4c; font-weight: bold; }
+
+.charts {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+canvas {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 15px;
+  width: 350px !important;
+  height: 350px !important;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #111;
+  padding: 15px;
+  color: #888;
+  font-size: 0.9em;
+  border-top: 2px solid #FFD700;
+}body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0a0a0a;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #111;
+  padding: 20px 0;
+  border-bottom: 2px solid #FFD700;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+h1 {
+  color: #FFD700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  margin: 25px auto;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: 600;
+  margin: 10px 0 5px;
+  color: #FFD700;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  background: #111;
+  color: white;
+  border: 1px solid #FFD700;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+.btn-sec {
+  background-color: #333;
+  color: #FFD700;
+  border: 1px solid #FFD700;
+}
+
+.btn-sec:hover {
+  background-color: #555;
+}
+
+.resultado {
+  margin-top: 25px;
+  width: 90%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inversion {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 12px;
+  text-align: left;
+}
+
+.total {
+  background: #222;
+  border: 1px solid #FFD700;
+}
+
+.positivo { color: #00ff7f; font-weight: bold; }
+.negativo { color: #ff4c4c; font-weight: bold; }
+
+.charts {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+canvas {
+  background-color: #111;
+  border-radius: 10px;
+  padding: 15px;
+  width: 350px !important;
+  height: 350px !important;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #111;
+  padding: 15px;
+  color: #888;
+  font-size: 0.9em;
+  border-top: 2px solid #FFD700;
+}
